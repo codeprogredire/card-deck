@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Card-deck</title>
+    <style>
+      body{
+        background: #4b6cb7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+      }
+
+      .border{
+          border: 3px white solid;
+          padding: 10px 10px;
+          margin: 20px 20px;
+      }
+      h1{
+          font-style: italic;
+          text-align: center;
+          color: white;
+        }
+    .footer{
+         background-color: #fff;
+        bottom: 0;
+        position: fixed;
+
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Landscapes</h1>
+       <div class="row border ">
+           <div class="col-md-4">
+                <div class="card text-white bg-danger mb-3">
+                    <img src="pic3.jpg" class="card-img-top" alt="..." height=250 width=250> 
+                    <div class="card-body">
+                    <h5 class="card-title">Seaport during Daytime</h5>
+                    <p class="card-text">Journey is more beautiful than the destination.</p>
+                    </div>
+                </div>
+            </div>
+           <div class="col-md-4">
+                <div class="card text-white bg-success mb-3">
+                        <img src="pic1.jpg" class="card-img-top" alt="..."  height=250 width=250>
+                        <div class="card-body">
+                            <h5 class="card-title">Mountain pathway</h5>
+                            <p class="card-text">The most beautiful view comes after the hardest climb.</p>
+                        </div>
+                </div>
+           </div>
+           <div class="col-md-4">
+                <div class="card text-white bg-primary mb-3">
+                        <img src="pic2.jpg" class="card-img-top" alt="..." height=250 width=250>
+                        <div class="card-body">
+                          <h5 class="card-title">Body of Water and Rocks</h5>
+                          <p class="card-text">If there is magic on this planet, it is contained in water.</p>
+                        </div>
+                </div>
+           </div>
+       </div>
+    </div>
+    <div class="row">
+        <div class="col-12 text-center footer">
+            <p>A picture is a poem without words.</p>
+        </div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</html>
